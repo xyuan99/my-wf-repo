@@ -1,7 +1,5 @@
-# BIOL7210 Nextflow Workflow Assignment
+# BIOL7210 - ex#7 Workflow 
 
-Author: [Your Name]  
-Course: BIOL7210  
 Platform: macOS Apple Silicon (M1/M2)  
 Nextflow Version: 24.10.5  
 Docker: Enabled (`--platform linux/amd64`)
@@ -23,8 +21,7 @@ This repository contains a small genomics workflow implemented in **Nextflow DSL
 ### 1. Clone this repository
 
 ```bash
-git clone git@github.com:yourusername/my_first_wf.git
-cd my_first_wf
+git clone git@github.com:xyuan99/my-wf-repo.git
 ```
 
 ### 2. Activate Nextflow environment
@@ -44,7 +41,7 @@ nextflow run main.nf -profile test,docker
 
 ## 🧪 Test Dataset
 
-- File: `data/testdata.fastq.gz`
+- File: `data/minidata.fastq.gz`
 - Description: A small single-end FASTQ file (≥ 20,000 lines recommended) for testing
 - Note: Replace the placeholder file with your actual test FASTQ
 
@@ -62,10 +59,12 @@ nextflow run main.nf -profile test,docker
 
 ## 🖼️ DAG Workflow Diagram
 
-To generate a visual representation of your workflow:
+Below is the DAG diagram illustrating the sequential and parallel steps in the workflow:
+
+![Workflow Diagram](dag.png)
+
+To generate this diagram, use command below:
 
 ```bash
 nextflow run main.nf -profile test,docker -with-dag dag.png
 ```
-
-This will output `dag.png` which you can embed in a report or presentation.
