@@ -1,12 +1,12 @@
 # BIOL7210 - ex#7 Workflow 
 
-Platform: macOS Apple Silicon (M1/M2)  
+Platform: macOS Apple Silicon (M3)  
 Nextflow Version: 24.10.5  
 Docker: Enabled (`--platform linux/amd64`)
 
 ---
 
-## 📦 Description
+## Description
 
 This repository contains a small genomics workflow implemented in **Nextflow DSL2**, designed for **local execution** with both **sequential** and **parallel** processing steps. It includes:
 
@@ -16,7 +16,7 @@ This repository contains a small genomics workflow implemented in **Nextflow DSL
 
 ---
 
-## 🚀 Quickstart Instructions
+## Quickstart Instructions
 
 ### 1. Clone this repository
 
@@ -39,7 +39,7 @@ nextflow run main.nf -profile test,docker
 
 ---
 
-## 🧪 Test Dataset
+## Test Dataset
 
 - File: `data/minidata.fastq.gz`
 - Description: A small single-end FASTQ file (≥ 20,000 lines recommended) for testing
@@ -47,7 +47,7 @@ nextflow run main.nf -profile test,docker
 
 ---
 
-## 🐳 Docker Containers Used
+## Docker Containers Used
 
 | Tool    | Docker Image |
 |---------|--------------|
@@ -57,7 +57,7 @@ nextflow run main.nf -profile test,docker
 
 ---
 
-## 🖼️ DAG Workflow Diagram
+## DAG Workflow Diagram
 
 Below is the DAG diagram illustrating the sequential and parallel steps in the workflow:
 
