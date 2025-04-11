@@ -1,0 +1,41 @@
+Detecting adapter sequence for read1...
+ERROR: sequence and quality have different length:
+@SRR2584863.23011 HWI-ST957:244:H73TDADXX:1:1104:15910:100758 length=300
+CGATATCACATATCATCAGGTC
+
+
+>I5_Nextera_Transposase_1 | >Trans1_rc | >I5_Nextera_Transposase_1 | >Trans1_rc
+CTGTCTCTTATACACATCTGACGCTGCCGACGA
+
+ERROR: sequence and quality have different length:
+@SRR2584863.23011 HWI-ST957:244:H73TDADXX:1:1104:15910:100758 length=300
+CGATATCACATATCATCAGGTC
+
+
+Read1 before filtering:
+total reads: 23010
+total bases: 6903000
+Q20 bases: 5920539(85.7676%)
+Q30 bases: 5263854(76.2546%)
+
+Read1 after filtering:
+total reads: 20512
+total bases: 5997793
+Q20 bases: 5494008(91.6005%)
+Q30 bases: 4935119(82.2822%)
+
+Filtering result:
+reads passed filter: 20512
+reads failed due to low quality: 2467
+reads failed due to too many N: 31
+reads failed due to too short: 0
+reads with adapter trimmed: 2753
+bases trimmed due to adapters: 161250
+
+Duplication rate (may be overestimated since this is SE data): 0%
+
+JSON report: fastp.json
+HTML report: fastp.html
+
+fastp -i minidata.fastq.gz -o clean.fastq.gz 
+fastp v0.20.1, time used: 2 seconds

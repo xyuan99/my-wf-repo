@@ -1,0 +1,9 @@
+
+=== Error correction and assembling warnings:
+ * 0:00:05.112     8M / 1353M WARN    General                 (simplification.cpp        : 517)   The determined erroneous connection coverage threshold may be determined improperly
+ * 0:00:14.602     9M / 1396M WARN    General                 (kmer_coverage_model.cpp   : 328)   Valley value was estimated improperly, reset to 4
+ * 0:00:03.063    10M / 1429M WARN    General                 (kmer_coverage_model.cpp   : 219)   Too many erroneous kmers, the estimates might be unreliable
+ * 0:00:04.814     9M / 1451M WARN    General                 (kmer_coverage_model.cpp   : 328)   Valley value was estimated improperly, reset to 5
+ * 0:00:07.279     9M / 1441M WARN    General                 (kmer_coverage_model.cpp   : 328)   Valley value was estimated improperly, reset to 3
+ * 0:00:07.280     9M / 1441M WARN    General                 (kmer_coverage_model.cpp   : 367)   Failed to determine erroneous kmer threshold. Threshold set to: 3
+======= Warnings saved to /Users/yxj/Desktop/BIOL7210/exercise/ex#7_Workflow/work/81/6b73209d49aea3217f63220ed1d573/spades_output/warnings.log

@@ -1,0 +1,74 @@
+4月-10 22:53:50.506 [main] DEBUG nextflow.cli.Launcher - $> nextflow run main.nf -profile test,docker -with-dag dag.png
+4月-10 22:53:50.744 [main] DEBUG nextflow.cli.CmdRun - N E X T F L O W  ~  version 24.10.5
+4月-10 22:53:50.807 [main] DEBUG nextflow.plugin.PluginsFacade - Setting up plugin manager > mode=prod; embedded=false; plugins-dir=/Users/yxj/.nextflow/plugins; core-plugins: nf-amazon@2.9.2,nf-azure@1.10.2,nf-cloudcache@0.4.2,nf-codecommit@0.2.2,nf-console@1.1.4,nf-google@1.15.4,nf-tower@1.9.3,nf-wave@1.7.4
+4月-10 22:53:50.845 [main] INFO  o.pf4j.DefaultPluginStatusProvider - Enabled plugins: []
+4月-10 22:53:50.846 [main] INFO  o.pf4j.DefaultPluginStatusProvider - Disabled plugins: []
+4月-10 22:53:50.851 [main] INFO  org.pf4j.DefaultPluginManager - PF4J version 3.12.0 in 'deployment' mode
+4月-10 22:53:50.884 [main] INFO  org.pf4j.AbstractPluginManager - No plugins
+4月-10 22:53:50.946 [main] DEBUG nextflow.config.ConfigBuilder - Found config local: /Users/yxj/Desktop/BIOL7210/exercise/ex#7_Workflow/nextflow.config
+4月-10 22:53:50.955 [main] DEBUG nextflow.config.ConfigBuilder - Parsing config file: /Users/yxj/Desktop/BIOL7210/exercise/ex#7_Workflow/nextflow.config
+4月-10 22:53:51.024 [main] DEBUG n.secret.LocalSecretsProvider - Secrets store: /Users/yxj/.nextflow/secrets/store.json
+4月-10 22:53:51.032 [main] DEBUG nextflow.secret.SecretsLoader - Discovered secrets providers: [nextflow.secret.LocalSecretsProvider@24e8de5c] - activable => nextflow.secret.LocalSecretsProvider@24e8de5c
+4月-10 22:53:51.048 [main] DEBUG nextflow.config.ConfigBuilder - Applying config profile: `test,docker`
+4月-10 22:53:51.854 [main] DEBUG nextflow.config.ConfigBuilder - Available config profiles: [test, docker]
+4月-10 22:53:51.911 [main] DEBUG nextflow.cli.CmdRun - Applied DSL=2 from script declaration
+4月-10 22:53:52.050 [main] DEBUG nextflow.cli.CmdRun - Launching `main.nf` [sick_lamarck] DSL2 - revision: 75bca7904f
+4月-10 22:53:52.122 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins default=[]
+4月-10 22:53:52.123 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins resolved requirement=[]
+4月-10 22:53:52.312 [main] DEBUG nextflow.Session - Session UUID: 9a67ec53-b2da-42af-8687-f8cad7c6b4d3
+4月-10 22:53:52.312 [main] DEBUG nextflow.Session - Run name: sick_lamarck
+4月-10 22:53:52.313 [main] DEBUG nextflow.Session - Executor pool size: 8
+4月-10 22:53:52.327 [main] DEBUG nextflow.file.FilePorter - File porter settings maxRetries=3; maxTransfers=50; pollTimeout=null
+4月-10 22:53:52.337 [main] DEBUG nextflow.util.ThreadPoolBuilder - Creating thread pool 'FileTransfer' minSize=10; maxSize=24; workQueue=LinkedBlockingQueue[-1]; allowCoreThreadTimeout=false
+4月-10 22:53:52.388 [main] DEBUG nextflow.cli.CmdRun - 
+  Version: 24.10.5 build 5935
+  Created: 04-03-2025 17:55 UTC (12:55 EST)
+  System: Mac OS X 15.3.2
+  Runtime: Groovy 4.0.23 on OpenJDK 64-Bit Server VM 22.0.1+8
+  Encoding: UTF-8 (UTF-8)
+  Process: 79773@ipsec-10-2-64-227.vpn.gatech.edu [10.2.64.227]
+  CPUs: 8 - Mem: 8 GB (35.6 MB) - Swap: 8 GB (1 GB)
+4月-10 22:53:52.445 [main] DEBUG nextflow.Session - Work-dir: /Users/yxj/Desktop/BIOL7210/exercise/ex#7_Workflow/work [Mac OS X]
+4月-10 22:53:52.446 [main] DEBUG nextflow.Session - Script base path does not exist or is not a directory: /Users/yxj/Desktop/BIOL7210/exercise/ex#7_Workflow/bin
+4月-10 22:53:52.462 [main] DEBUG nextflow.executor.ExecutorFactory - Extension executors providers=[]
+4月-10 22:53:52.479 [main] DEBUG nextflow.Session - Observer factory: DefaultObserverFactory
+4月-10 22:53:52.538 [main] DEBUG nextflow.cache.CacheFactory - Using Nextflow cache factory: nextflow.cache.DefaultCacheFactory
+4月-10 22:53:52.553 [main] DEBUG nextflow.util.CustomThreadPool - Creating default thread pool > poolSize: 9; maxThreads: 1000
+4月-10 22:53:52.611 [main] DEBUG nextflow.Session - Session start
+4月-10 22:53:52.992 [main] DEBUG nextflow.script.ScriptRunner - > Launching execution
+4月-10 22:53:53.162 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+4月-10 22:53:53.162 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+4月-10 22:53:53.172 [main] DEBUG nextflow.executor.Executor - [warm up] executor > local
+4月-10 22:53:53.199 [main] DEBUG n.processor.LocalPollingMonitor - Creating local task monitor for executor 'local' > cpus=8; memory=8 GB; capacity=8; pollInterval=100ms; dumpInterval=5m
+4月-10 22:53:53.204 [main] DEBUG n.processor.TaskPollingMonitor - >>> barrier register (monitor: local)
+4月-10 22:53:53.283 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+4月-10 22:53:53.283 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+4月-10 22:53:53.288 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+4月-10 22:53:53.290 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+4月-10 22:53:53.293 [main] DEBUG nextflow.Session - Workflow process names [dsl2]: seqkit, spades, fastp
+4月-10 22:53:53.294 [main] DEBUG nextflow.Session - Igniting dataflow network (4)
+4月-10 22:53:53.306 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > fastp
+4月-10 22:53:53.308 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > spades
+4月-10 22:53:53.308 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > seqkit
+4月-10 22:53:53.308 [main] DEBUG nextflow.script.ScriptRunner - Parsed script files:
+  Script_dc408638fa3fff99: /Users/yxj/Desktop/BIOL7210/exercise/ex#7_Workflow/main.nf
+4月-10 22:53:53.308 [main] DEBUG nextflow.script.ScriptRunner - > Awaiting termination 
+4月-10 22:53:53.308 [main] DEBUG nextflow.Session - Session await
+4月-10 22:53:53.590 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+4月-10 22:53:53.593 [Task submitter] INFO  nextflow.Session - [83/b172a6] Submitted process > fastp (1)
+4月-10 22:53:57.553 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 1; name: fastp (1); status: COMPLETED; exit: 0; error: -; workDir: /Users/yxj/Desktop/BIOL7210/exercise/ex#7_Workflow/work/83/b172a687767ef46011280e034a3ea8]
+4月-10 22:53:57.558 [Task monitor] DEBUG nextflow.util.ThreadPoolBuilder - Creating thread pool 'TaskFinalizer' minSize=10; maxSize=24; workQueue=LinkedBlockingQueue[-1]; allowCoreThreadTimeout=false
+4月-10 22:53:57.694 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+4月-10 22:53:57.698 [Task submitter] INFO  nextflow.Session - [81/6b7320] Submitted process > spades (1)
+4月-10 22:53:57.795 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+4月-10 22:53:57.796 [Task submitter] INFO  nextflow.Session - [1f/8d9463] Submitted process > seqkit (1)
+4月-10 22:53:58.426 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 3; name: seqkit (1); status: COMPLETED; exit: 0; error: -; workDir: /Users/yxj/Desktop/BIOL7210/exercise/ex#7_Workflow/work/1f/8d946385e1ab31fab589eaae19156d]
+4月-10 22:54:51.367 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 2; name: spades (1); status: COMPLETED; exit: 0; error: -; workDir: /Users/yxj/Desktop/BIOL7210/exercise/ex#7_Workflow/work/81/6b73209d49aea3217f63220ed1d573]
+4月-10 22:54:51.388 [main] DEBUG nextflow.Session - Session await > all processes finished
+4月-10 22:54:51.475 [Task monitor] DEBUG n.processor.TaskPollingMonitor - <<< barrier arrives (monitor: local) - terminating tasks monitor poll loop
+4月-10 22:54:51.475 [main] DEBUG nextflow.Session - Session await > all barriers passed
+4月-10 22:54:51.503 [main] DEBUG nextflow.util.ThreadPoolManager - Thread pool 'TaskFinalizer' shutdown completed (hard=false)
+4月-10 22:54:51.525 [main] DEBUG n.trace.WorkflowStatsObserver - Workflow completed > WorkflowStats[succeededCount=3; failedCount=0; ignoredCount=0; cachedCount=0; pendingCount=0; submittedCount=0; runningCount=0; retriesCount=0; abortedCount=0; succeedDuration=58.1s; failedDuration=0ms; cachedDuration=0ms;loadCpus=0; loadMemory=0; peakRunning=2; peakCpus=2; peakMemory=0; ]
+4月-10 22:55:02.079 [main] DEBUG nextflow.cache.CacheDB - Closing CacheDB done
+4月-10 22:55:02.117 [main] DEBUG nextflow.util.ThreadPoolManager - Thread pool 'FileTransfer' shutdown completed (hard=false)
+4月-10 22:55:02.119 [main] DEBUG nextflow.script.ScriptRunner - > Execution complete -- Goodbye

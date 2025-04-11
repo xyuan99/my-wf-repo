@@ -1,0 +1,2 @@
+2025-04-10 22:44:27	1m 1s	pensive_mirzakhani	ERR	75bca7904f18d2a965f5024026d23613	7e2aacd8-5a7c-435a-b69d-f31366ad281c	nextflow run main.nf -profile test,docker
+2025-04-10 22:53:52	1m 10s	sick_lamarck	OK	75bca7904f18d2a965f5024026d23613	9a67ec53-b2da-42af-8687-f8cad7c6b4d3	nextflow run main.nf -profile test,docker -with-dag dag.png

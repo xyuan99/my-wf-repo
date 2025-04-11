@@ -1,0 +1,33 @@
+Æ---
+max read length: 300
+nomerge max read length: 300
+average read length: 291.267
+average coverage: 1.09796
+libraries:
+  - type:            single
+    number:          1
+    single reads:
+      - '/Users/yxj/Desktop/BIOL7210/exercise/ex#7_Workflow/work/4e/f2ab4efb263c9b43b08917c1fb3b68/spades_output/corrected/clean.fastq00.0_0.cor.fastq.gz'
+    data:
+      unmerged read length: 300
+      merged read length: 0
+      insert size mean: 0
+      insert size deviation: 0
+      insert size left quantile: 0
+      insert size right quantile: 0
+      insert size median: 0
+      insert size mad: 0
+      insert size distribution: {  }
+      pi threshold:    0
+      binary reads info:
+        binary converted: true
+        bin reads info file: '/Users/yxj/Desktop/BIOL7210/exercise/ex#7_Workflow/work/4e/f2ab4efb263c9b43b08917c1fb3b68/spades_output/.bin_reads/INFO_0'
+        paired read prefix: '/Users/yxj/Desktop/BIOL7210/exercise/ex#7_Workflow/work/4e/f2ab4efb263c9b43b08917c1fb3b68/spades_output/.bin_reads/paired_0'
+        merged read prefix: '/Users/yxj/Desktop/BIOL7210/exercise/ex#7_Workflow/work/4e/f2ab4efb263c9b43b08917c1fb3b68/spades_output/.bin_reads/merged_0'
+        single read prefix: '/Users/yxj/Desktop/BIOL7210/exercise/ex#7_Workflow/work/4e/f2ab4efb263c9b43b08917c1fb3b68/spades_output/.bin_reads/single_0'
+        chunk num:       8
+      single reads mapped: false
+      library index:   0
+      number of reads: 4022
+      total nucleotides: 1171474
+...

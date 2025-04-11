@@ -1,0 +1,5 @@
+
+=== Error correction and assembling warnings:
+ * 0:00:08.350     2M / 1333M WARN    General                 (kmer_coverage_model.cpp   : 328)   Valley value was estimated improperly, reset to 2
+ * 0:00:08.416     2M / 1333M WARN    General                 (simplification.cpp        : 517)   The determined erroneous connection coverage threshold may be determined improperly
+======= Warnings saved to /Users/yxj/Desktop/BIOL7210/exercise/ex#7_Workflow/work/4e/f2ab4efb263c9b43b08917c1fb3b68/spades_output/warnings.log

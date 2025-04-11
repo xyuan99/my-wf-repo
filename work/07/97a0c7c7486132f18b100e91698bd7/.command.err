@@ -1,0 +1,63 @@
+Unable to find image 'quay.io/biocontainers/fastp:0.20.1--h8b12597_0' locally
+0.20.1--h8b12597_0: Pulling from biocontainers/fastp
+75c080ef15eb: Pulling fs layer
+2f8531d5a6ec: Pulling fs layer
+1dbcab28ce46: Pulling fs layer
+1dbcab28ce46: Pulling fs layer
+2e178fd72baf: Pulling fs layer
+ace2d8a63dd5: Pulling fs layer
+1089973c807a: Pulling fs layer
+316957f8baaf: Pulling fs layer
+dbd31e1d863d: Pulling fs layer
+cfb1ba34637d: Pulling fs layer
+1dbcab28ce46: Download complete
+ace2d8a63dd5: Download complete
+2f8531d5a6ec: Download complete
+cfb1ba34637d: Download complete
+75c080ef15eb: Download complete
+dbd31e1d863d: Download complete
+2e178fd72baf: Download complete
+316957f8baaf: Download complete
+1089973c807a: Download complete
+Digest: sha256:56ca79fc827c1e9f48120cfa5adb654c029904d8e0b75d01d5f86fdd9b567bc5
+Status: Downloaded newer image for quay.io/biocontainers/fastp:0.20.1--h8b12597_0
+Detecting adapter sequence for read1...
+ERROR: sequence and quality have different length:
+@SRR2584863.4458 HWI-ST957:244:H73TDADXX:1:1101:12227:91890 length=300
+CGCCATTATTGGTGAACTGGTCATCGGTTGGCGTGGTTTGCAGCGTTGGATTGTTGGTCGTCATGCCGGAGTCGGTTGTCGCTCTGAGAGTAATCGGGCTACCCGTTAAAGCAATACCAGAACCGCCGTTAACACCCGCGCGTAATTCGCGCTTTGAAGCGGCGAAAAATATCGGCACTCAGCCAGTGGCAGCTCAGATAGCTGCCGCACCTGCCGCAGACGTAGCTGAACAACCTCAGCCGCAAACCGTGGATGGCGTTGCCAGCCCGGCACAAGCCTCGGTTAGCGATCTTACCGGTG
++SRR2584863.4458 HWI-ST957:244:H73TDADXX:1:1101:12227:91890 length=300
+CCCFFFFDHHHHHHIJIJJIIIJIJJJHIIJIIGHIIJJGIIGEIIIIIIIIIJIJHGHFFFDEEECDDDDDDDBDDDDDDBBDDCCDACCDDC><BDBDD?CB@BBBBCCDDDDDCCCDB?C?@BBBDDDBDCCBBD@BBD><?BC>8
+No adapter detected for read1
+
+ERROR: sequence and quality have different length:
+@SRR2584863.4458 HWI-ST957:244:H73TDADXX:1:1101:12227:91890 length=300
+CGCCATTATTGGTGAACTGGTCATCGGTTGGCGTGGTTTGCAGCGTTGGATTGTTGGTCGTCATGCCGGAGTCGGTTGTCGCTCTGAGAGTAATCGGGCTACCCGTTAAAGCAATACCAGAACCGCCGTTAACACCCGCGCGTAATTCGCGCTTTGAAGCGGCGAAAAATATCGGCACTCAGCCAGTGGCAGCTCAGATAGCTGCCGCACCTGCCGCAGACGTAGCTGAACAACCTCAGCCGCAAACCGTGGATGGCGTTGCCAGCCCGGCACAAGCCTCGGTTAGCGATCTTACCGGTG
++SRR2584863.4458 HWI-ST957:244:H73TDADXX:1:1101:12227:91890 length=300
+CCCFFFFDHHHHHHIJIJJIIIJIJJJHIIJIIGHIIJJGIIGEIIIIIIIIIJIJHGHFFFDEEECDDDDDDDBDDDDDDBBDDCCDACCDDC><BDBDD?CB@BBBBCCDDDDDCCCDB?C?@BBBDDDBDCCBBD@BBD><?BC>8
+Read1 before filtering:
+total reads: 4457
+total bases: 1337100
+Q20 bases: 1157916(86.5991%)
+Q30 bases: 1031531(77.1469%)
+
+Read1 after filtering:
+total reads: 4024
+total bases: 1207200
+Q20 bases: 1102339(91.3137%)
+Q30 bases: 989870(81.9972%)
+
+Filtering result:
+reads passed filter: 4024
+reads failed due to low quality: 430
+reads failed due to too many N: 3
+reads failed due to too short: 0
+reads with adapter trimmed: 0
+bases trimmed due to adapters: 0
+
+Duplication rate (may be overestimated since this is SE data): 0%
+
+JSON report: fastp.json
+HTML report: fastp.html
+
+fastp -i minidata.fastq.gz -o clean.fastq.gz 
+fastp v0.20.1, time used: 1 seconds
